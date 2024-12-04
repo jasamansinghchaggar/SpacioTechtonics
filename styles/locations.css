@@ -1,0 +1,58 @@
+.locations {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    box-shadow: inset 0px -10px 20px 7px rgba(0, 0, 0, 0.2);
+
+    .text {
+        width: 50%;
+        padding: 5rem 3rem;
+        font-weight: 500;
+
+        .location-heading {
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid red;
+            font-size: 2.5rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            padding: 0 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .stats {
+            height: max-content;
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.4);
+
+            .stat {
+                padding: 0 1rem;
+                text-align: center;
+                text-transform: uppercase;
+
+                h1 {
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .map-image {
+        width: 50%;
+        padding: 2rem;
+    }
+}

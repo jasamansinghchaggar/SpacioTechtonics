@@ -1,0 +1,53 @@
+.about {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+
+    .heading {
+        width: 50%;
+        padding: 5rem 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1 {
+            padding: 0 1.5rem;
+            border-left: red solid 4px;
+            font-weight: 400;
+        }
+
+        a {
+            width: max-content;
+            padding: 1rem 2rem;
+            background-color: white;
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 15px;
+            box-shadow: 10px 10px 9px 0px rgb(0 0 0 / 34%), inset 5px 5px 10px 0px rgb(0 0 0 / 20%);
+
+            i {
+                margin-left: 0.5rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .text {
+        width: 50%;
+        padding: 10rem 0;
+        padding-right: 3rem;
+
+        p {
+            padding: 0.5rem 0;
+            font-size: 1rem;
+            font-weight: 400;
+
+            em {
+                text-decoration: underline;
+            }
+        }
+    }
+}
